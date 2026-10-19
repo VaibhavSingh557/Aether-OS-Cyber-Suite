@@ -1,178 +1,109 @@
 ⚡ AETHER-OS // TITAN v5.0
 
-A Futuristic System Diagnostics & Cybersecurity Dashboard
+Futuristic System Diagnostics & Cybersecurity Dashboard
 
-<p align="center">
-  **SYSTEM INTELLIGENCE • NETWORK ANALYSIS • SECURITY TOOLS**
-</p>AETHER-OS // TITAN is a Flask-powered web dashboard featuring a futuristic cyber-inspired interface for system diagnostics, network utilities, website inspection, IP intelligence, file analysis, and security-themed tools.
+AETHER-OS // TITAN is a Python Flask-based web application that brings system diagnostics, network utilities, website inspection, IP intelligence, file analysis, and security-themed tools into one futuristic dashboard.
 
-Designed with a neon interface and modular backend routes, AETHER-OS brings multiple technical utilities together in one centralized dashboard.
+Built with a neon cyber-inspired interface, interactive components, and a modular backend, AETHER-OS delivers a centralized workspace for technical exploration and diagnostics.
 
----
+🚀 Features
 
-✨ Core Features
+- 🖥️ System Diagnostics — View available device and system information.
+- 🌐 Website Scanner — Inspect website targets through the web-scan interface.
+- 📡 Network Suite — Access network diagnostic and port-inspection features.
+- 🌍 IP Intelligence — Retrieve IP-related information through a dedicated API.
+- 📁 File & APK Analysis — Explore file characteristics, hashing, and entropy-related analysis.
+- 🔐 Password & Cipher Vault — Access password-generation and cipher-related utilities.
+- 🛡️ Antivirus Interface — Explore a simulated security scanning and optimization interface.
+- 🎨 Cyber UI — Enjoy a dark interface with neon cyan and purple styling.
+- ⚡ Interactive Dashboard — Navigate tools through an integrated web interface.
 
-🖥️ System Diagnostics
+🧰 Tech Stack
 
-- Displays available device and system information.
-- Provides a centralized interface for diagnostic data.
-- Presents technical information through a futuristic dashboard.
+- Python — Backend logic
+- Flask — Web server and API routes
+- HTML5 — Interface structure
+- CSS — Styling and visual effects
+- JavaScript — Interactive functionality
+- Tailwind CSS — UI styling framework
+- Google Fonts — Typography
 
-🌐 Website Scanner
+📂 Project Structure
 
-- Accepts website targets for inspection.
-- Provides website-scan results through the backend API.
-- Offers a dedicated interface for reviewing scan information.
+AETHER-OS-TITAN/
+│
+├── Aether-OS-Diagnosis.py
+└── README.md
 
-📡 Network Suite
-
-- Includes network diagnostic utilities.
-- Provides ping and port-related inspection features.
-- Displays results through interactive dashboard components.
-
-🌍 IP Intelligence
-
-- Includes an IP intelligence interface.
-- Retrieves IP-related information through a dedicated API endpoint.
-- Organizes results for convenient viewing.
-
-📁 File & APK Analysis
-
-- Provides a file-analysis interface.
-- Includes file hashing and entropy-related analysis elements.
-- Helps inspect selected file characteristics.
-
-🔐 Password & Cipher Vault
-
-- Includes password-generation and cipher-related utilities.
-- Combines security-themed tools in a dedicated interface.
-- Provides a convenient workspace for cryptographic experiments.
-
-🛡️ Antivirus & Optimization Interface
-
-- Features an antivirus-style scanning interface.
-- Includes simulated threat results and optimization-themed functionality.
-- Demonstrates how security scan information can be presented in a dashboard.
-
-Important: The antivirus interface is a simulation, not a full antivirus engine. The project does not provide verified malware detection or actual file quarantine.
-
----
-
-🎨 Interface & Design
-
-- Neon cyan and purple visual theme
-- Glassmorphism-inspired interface
-- Dark, futuristic dashboard aesthetic
-- Interactive tabs and dynamic result displays
-- Responsive web-interface styling
-- Tailwind CSS and Google Fonts integration
-
----
-
-🧰 Technology Stack
-
-Technology| Purpose
-Python| Backend logic
-Flask| Web server and API routes
-HTML5| Dashboard structure
-CSS| Visual styling and effects
-JavaScript| Client-side interactions
-Tailwind CSS| Utility-based styling
-Google Fonts| Typography
-
----
-
-⚙️ Installation & Setup
-
-Requirements
-
-- Python 3
-- pip
-- A modern web browser
-- Flask and any other required Python dependencies
+⚙️ Installation
 
 1. Clone the repository
 
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+
+2. Enter the project directory
+
 cd YOUR_REPOSITORY
 
-Replace the repository URL and directory name with the actual GitHub repository details.
-
-2. Install Flask
+3. Install Flask
 
 python -m pip install flask
 
-If a "requirements.txt" file is included in the repository, install the listed dependencies with:
+If the project includes a "requirements.txt" file, install its dependencies using:
 
 python -m pip install -r requirements.txt
 
-3. Launch AETHER-OS
+4. Run AETHER-OS
 
 python Aether-OS-Diagnosis.py
 
-4. Open the dashboard
+5. Open the dashboard
 
-Open the local address displayed by Flask in your terminal, typically:
+Visit the local address shown in the terminal. The default Flask address is usually:
 
 http://127.0.0.1:5000
 
-Keep the terminal running while using the dashboard.
+🔌 API Endpoints
 
----
-
-🔌 Backend API
-
-The application defines the following API routes:
-
-Endpoint| Function
+Endpoint| Description
 "/api/device"| Device and system information
-"/api/webscan"| Website inspection
-"/api/network_suite"| Network utilities
+"/api/webscan"| Website scanning interface
+"/api/network_suite"| Network diagnostic utilities
 "/api/ip_intel"| IP intelligence
 "/api/av_scan"| Antivirus-style scan interface
 
-The available results depend on the implementation of each route and the information accessible to the application.
+🔒 Security Notice
 
----
+AETHER-OS is a diagnostic and educational project. Use its tools only on systems, files, websites, and networks you own or have permission to test.
 
-🔒 Security & Responsible Use
+- Run locally during development.
+- Do not expose Flask's development server directly to the public internet.
+- Add authentication, input validation, and appropriate access controls before public deployment.
+- Treat scan results as informational rather than definitive security verdicts.
+- The antivirus interface includes simulated results and is not a replacement for a real antivirus engine.
 
-AETHER-OS is a technical dashboard and diagnostic project. Its tools should be used only on systems, files, websites, and networks you own or have explicit permission to test.
+Some system readings may be estimates or limited by the information available to the application.
 
-- Run the application locally while developing.
-- Do not expose the Flask development server directly to the public internet.
-- Add appropriate authentication and access controls before any multi-user or public deployment.
-- Treat diagnostic and scan results as informational rather than definitive security verdicts.
-- Do not assume that a displayed result guarantees a system is safe.
+🛠️ Future Improvements
 
-Security note: Some dashboard readings may be estimates or dependent on information supplied by the browser. The application should not be treated as a substitute for professional security software.
-
----
-
-🚧 Project Scope
-
-AETHER-OS // TITAN combines multiple utilities in a single interface. Certain features are demonstrative or limited by their current implementation. Actual capabilities depend on the underlying Python routes and browser-accessible information.
-
-Future development could include:
-
-- Dedicated automated tests
-- A documented dependency file
-- Stronger API authentication and validation
-- More robust error handling
-- Expanded diagnostic modules
-- Integration with genuine malware-analysis engines
-- Improved deployment and security configuration
-
----
+- Expanded diagnostic capabilities
+- Improved error handling and validation
+- Automated testing
+- Stronger API security
+- Enhanced file-analysis functionality
+- Integration with genuine malware-analysis tools
+- Production-ready deployment configuration
 
 📜 License
 
-No license is specified here. Add a "LICENSE" file to the repository if you intend to publish the project under a particular open-source license.
+No license has been specified. Add a "LICENSE" file if you intend to distribute the project under an open-source license.
 
 ---
 
-<p align="center">AETHER-OS // TITAN v5.0
+<div align="center">⚡ AETHER-OS // TITAN v5.0
 
 SYSTEM DIAGNOSTICS • NETWORK INTELLIGENCE • CYBER TOOLS
 
-</p>
+One dashboard. Multiple utilities. A futuristic interface.
+
+</div>
