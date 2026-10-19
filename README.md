@@ -1,242 +1,184 @@
-⚡ AETHER-OS // TITAN v5.0
-
-"SYSTEM DIAGNOSTICS" · "NETWORK INTELLIGENCE" · "CYBER TOOLS"
+<img src="https://img.shields.io/badge/⚡_AETHER--OS-TITAN_v5.0-00E5FF?style=for-the-badge&labelColor=090014" alt="AETHER-OS TITAN v5.0" />
 
 <p align="center">
-  <strong>A futuristic all-in-one system diagnostics and cybersecurity dashboard.</strong>
+  <img src="https://img.shields.io/badge/SYSTEM-DIAGNOSTICS-00E5FF?style=for-the-badge" alt="System Diagnostics" />
+  <img src="https://img.shields.io/badge/NETWORK-INTELLIGENCE-9D4EDD?style=for-the-badge" alt="Network Intelligence" />
+  <img src="https://img.shields.io/badge/CYBER-TOOLS-FF3CAC?style=for-the-badge" alt="Cyber Tools" />
+  <img src="https://img.shields.io/badge/LICENSE-MIT-00C853?style=for-the-badge" alt="MIT License" />
+</p><p align="center">
+  <strong>◈ A FUTURISTIC SYSTEM DIAGNOSTICS & CYBERSECURITY DASHBOARD ◈</strong>
 </p>---
 
-◈ OVERVIEW
+🟣 "01 // SYSTEM OVERVIEW"
 
-AETHER-OS // TITAN is a Python Flask-powered web application that combines system diagnostics, network utilities, website inspection, IP intelligence, file analysis, and security-themed tools within a single futuristic interface.
+AETHER-OS // TITAN v5.0 is a Python Flask-powered web dashboard combining system diagnostics, network utilities, website inspection, IP intelligence, file analysis, and security-themed tools in one futuristic interface.
 
-Featuring a neon cyber aesthetic, interactive dashboard components, and dedicated backend API routes, AETHER-OS provides a centralized environment for exploring technical information and diagnostic utilities.
+Built around a neon cyber aesthetic and an integrated backend, AETHER-OS provides a centralized environment for technical exploration and diagnostic utilities.
 
-«INITIALIZING AETHER-OS...
-
-"CORE SYSTEM" → "ONLINE"
-"NETWORK MODULES" → "READY"
-"DIAGNOSTICS INTERFACE" → "ACTIVE"»
+«⚡ SYSTEM STATUS: Dashboard initialized
+🔷 CORE: Python + Flask
+🟣 INTERFACE: Neon cyber dashboard
+🛡️ MODE: Diagnostics & technical utilities»
 
 ---
 
-✨ FEATURES & MODULES
+🔹 "02 // FEATURE MATRIX"
 
-🖥️ 01 — SYSTEM DIAGNOSTICS
+🖥️ SYSTEM DIAGNOSTICS
 
-Explore available device and system information through a centralized diagnostic interface.
+- Device and system information display
+- Diagnostic data presentation
+- Centralized dashboard interface
 
-- Device information display
-- System diagnostic data
-- Dynamic dashboard presentation
-
-🌐 02 — WEB SCANNER
-
-Access website inspection functionality through the dedicated web-scanning module.
+🌐 WEB SCANNER
 
 - Website target input
-- Backend-powered scan requests
-- Organized inspection results
+- Backend-powered inspection requests
+- Organized scan results
 
-📡 03 — NETWORK SUITE
+📡 NETWORK SUITE
 
-A dedicated workspace for network diagnostic utilities.
-
-- Ping-related tools
+- Ping-related utilities
 - Port-inspection interface
-- Network information display
+- Network diagnostic functionality
 
-🌍 04 — IP INTELLIGENCE
+🌍 IP INTELLIGENCE
 
-Explore IP-related information using the integrated IP intelligence module.
-
-- Dedicated IP lookup interface
-- API-based information retrieval
+- IP-related information retrieval
+- Dedicated intelligence interface
 - Structured result presentation
 
-📁 05 — FILE & APK ANALYSIS
-
-Inspect selected file characteristics through the file-analysis interface.
+📁 FILE & APK ANALYSIS
 
 - File hashing functionality
 - Entropy-related analysis
 - File inspection interface
 
-Hashing and entropy are analytical tools, not proof that a file is safe or malicious.
+🔐 PASSWORD & CIPHER VAULT
 
-🔐 06 — PASSWORD & CIPHER VAULT
+- Password-generation interface
+- Cipher-related utilities
+- Security-themed tools
 
-A security-themed workspace for password and cipher-related utilities.
+🛡️ ANTIVIRUS INTERFACE
 
-- Password generation interface
-- Cipher-related tools
-- Centralized security utilities
-
-🛡️ 07 — ANTIVIRUS INTERFACE
-
-An antivirus-style interface with scanning and optimization-themed functionality.
-
-- Scan-result presentation
+- Antivirus-style scanning interface
 - Simulated threat information
-- Security dashboard experience
+- Optimization-themed functionality
 
-Important: The current antivirus interface uses simulated threat results. It is not a complete antivirus engine and does not provide verified malware detection or actual quarantine.
-
----
-
-🎨 VISUAL EXPERIENCE
-
-AETHER-OS is designed around a futuristic cyber-dashboard aesthetic.
-
-- ⚡ Neon cyan and purple accents
-- 🌑 Dark interface styling
-- 💎 Glassmorphism-inspired visual elements
-- 🧭 Interactive navigation and dashboard tabs
-- 🖥️ Technical information panels
-- ✨ Dynamic frontend interactions
-- 🔤 Modern typography using Google Fonts
-- 🎨 Tailwind CSS integration
-
-The goal is to bring multiple technical utilities together in one visually cohesive interface.
+«⚠️ Important: Antivirus threat results are simulated. This project is not a complete antivirus engine and does not provide verified malware detection or actual quarantine.»
 
 ---
 
-🧰 TECHNOLOGY STACK
+🔷 "03 // VISUAL DESIGN"
 
-Technology| Role
-Python| Backend application logic
-Flask| Web server and API routing
-HTML5| Web interface structure
-CSS| Layout, styling, and visual effects
-JavaScript| Frontend interactions
-Tailwind CSS| Utility-based styling
-Google Fonts| Interface typography
-
----
-
-📂 PROJECT STRUCTURE
-
-AETHER-OS-TITAN/
-│
-├── Aether-OS-Diagnosis.py
-├── README.md
-└── LICENSE
-
-The Python application contains the Flask backend and the dashboard's embedded frontend code. The "README.md" documents the project, while "LICENSE" contains the MIT License terms.
+Element| Description
+🩵 Accent| Neon cyan
+🟣 Accent| Electric purple
+🌑 Theme| Dark cyber aesthetic
+💎 UI| Glassmorphism-inspired styling
+⚡ Interaction| JavaScript-powered interface
+🎨 Styling| CSS and Tailwind CSS
+🔤 Typography| Google Fonts
 
 ---
 
-⚙️ INSTALLATION & SETUP
+🟪 "04 // TECHNOLOGY STACK"
 
-Requirements
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+</p>---
 
-- Python 3
-- pip package manager
-- A modern web browser
-- Flask and any other required dependencies
+⚙️ "05 // INSTALLATION"
 
-01 — Clone the repository
+STEP 01 — Clone the repository
 
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 
-02 — Enter the project directory
+STEP 02 — Enter the project directory
 
 cd YOUR_REPOSITORY
 
-Replace "YOUR_USERNAME" and "YOUR_REPOSITORY" with the actual GitHub username and repository name.
+Replace the placeholders with your actual GitHub username and repository name.
 
-03 — Install Flask
+STEP 03 — Install Flask
 
 python -m pip install flask
 
-If a "requirements.txt" file is available, install all listed dependencies instead:
+If a "requirements.txt" file is available, install its dependencies with:
 
 python -m pip install -r requirements.txt
 
-04 — Launch the application
+STEP 04 — Launch AETHER-OS
 
 python Aether-OS-Diagnosis.py
 
-05 — Access the dashboard
+STEP 05 — Open the dashboard
 
-Open the local URL displayed in the terminal. Flask's default local address is commonly:
+Visit the local URL shown in your terminal. Flask commonly uses:
 
 http://127.0.0.1:5000
 
-Keep the Python process running while using the application.
+---
+
+🔌 "06 // API ENDPOINTS"
+
+Endpoint| Function
+"/api/device"| Device and system information
+"/api/webscan"| Website inspection
+"/api/network_suite"| Network utilities
+"/api/ip_intel"| IP intelligence
+"/api/av_scan"| Antivirus-style scan interface
+
+The actual functionality depends on each endpoint's implementation and the information available to the application.
 
 ---
 
-🔌 API REFERENCE
+🔒 "07 // SECURITY PROTOCOL"
 
-The application defines the following backend endpoints:
-
-Endpoint| Purpose
-"/api/device"| Retrieves available device and system information
-"/api/webscan"| Handles website inspection requests
-"/api/network_suite"| Provides network utility functionality
-"/api/ip_intel"| Handles IP intelligence requests
-"/api/av_scan"| Provides the antivirus-style scan interface
-
-The actual output and capabilities of each endpoint depend on its implementation, available permissions, and external service responses where applicable.
-
----
-
-🔒 SECURITY & RESPONSIBLE USE
-
-AETHER-OS is intended for technical exploration, diagnostics, and authorized testing.
-
-- Use network and website tools only on targets you own or have explicit permission to test.
-- Run the application locally during development.
+- Use scanning tools only on authorized targets.
+- Run locally during development.
 - Do not expose Flask's development server directly to the public internet.
-- Implement authentication, input validation, and appropriate access controls before public deployment.
-- Avoid placing passwords, API keys, or other secrets directly in source code.
-- Treat scan results as informational, not as guaranteed security verdicts.
-- Do not rely on simulated antivirus results to determine whether a device or file is safe.
+- Add authentication, input validation, and access controls before public deployment.
+- Keep API keys and other secrets out of source code.
+- Do not treat simulated results as verified security findings.
 
-Deployment note: Binding the server to "0.0.0.0" can make it accessible from other devices on the network. Configure the host, firewall, and deployment environment appropriately.
+Deployment warning: A Flask server bound to "0.0.0.0" may be accessible to other devices on the network. Configure access controls and deployment settings appropriately.
 
 ---
 
-🚧 DEVELOPMENT ROADMAP
-
-Potential areas for future development include:
+🚀 "08 // DEVELOPMENT ROADMAP"
 
 - [ ] Automated testing
-- [ ] Improved error handling and input validation
-- [ ] Stronger API authentication and access controls
-- [ ] Dependency management through "requirements.txt"
-- [ ] Expanded system diagnostic functionality
-- [ ] More robust file-analysis capabilities
-- [ ] Integration with genuine malware-analysis engines
-- [ ] Improved logging and diagnostic reporting
+- [ ] Improved error handling
+- [ ] Stronger API security
+- [ ] Dependency documentation
+- [ ] Expanded diagnostic capabilities
+- [ ] Enhanced file-analysis tools
+- [ ] Integration with genuine malware-analysis tools
 - [ ] Production-ready deployment configuration
-- [ ] Expanded technical documentation
 
 ---
 
-📜 LICENSE
+🟢 "09 // LICENSE"
 
-This project is distributed under the MIT License.
+AETHER-OS // TITAN v5.0 is licensed under the MIT License.
 
-You are permitted to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, subject to the conditions of the MIT License.
+Permission is granted to use, copy, modify, distribute, sublicense, and sell copies of the software, subject to the conditions of the MIT License.
 
-The copyright notice and permission notice must be included in copies or substantial portions of the software.
-
-See the ""LICENSE"" (LICENSE) file for the complete license terms.
-
----
-
-⚡ PROJECT IDENTITY
-
-AETHER-OS // TITAN v5.0
-
-"PYTHON" · "FLASK" · "SYSTEM DIAGNOSTICS" · "CYBER TOOLS"
-
-A unified dashboard for technical exploration, diagnostics, and security-themed utilities.
+See ""LICENSE"" (LICENSE) for the complete license terms.
 
 ---
 
 <p align="center">
-  <strong>◈ END OF TRANSMISSION ◈</strong>
+  <img src="https://img.shields.io/badge/◈_AETHER--OS-CORE_ONLINE-00E5FF?style=for-the-badge&labelColor=090014" alt="AETHER-OS Core Online" />
+</p><p align="center">
+  <strong>⚡ SYSTEM DIAGNOSTICS · NETWORK INTELLIGENCE · CYBER TOOLS ⚡</strong>
+</p><p align="center">
+  <sub>◈ END OF TRANSMISSION ◈</sub>
 </p>
