@@ -1,184 +1,112 @@
-<img src="https://img.shields.io/badge/⚡_AETHER--OS-TITAN_v5.0-00E5FF?style=for-the-badge&labelColor=090014" alt="AETHER-OS TITAN v5.0" />
+⚡ AETHER-OS // TITAN v5.0
+
+🛡️ Futuristic System Diagnostics & Cybersecurity Dashboard
 
 <p align="center">
-  <img src="https://img.shields.io/badge/SYSTEM-DIAGNOSTICS-00E5FF?style=for-the-badge" alt="System Diagnostics" />
-  <img src="https://img.shields.io/badge/NETWORK-INTELLIGENCE-9D4EDD?style=for-the-badge" alt="Network Intelligence" />
-  <img src="https://img.shields.io/badge/CYBER-TOOLS-FF3CAC?style=for-the-badge" alt="Cyber Tools" />
-  <img src="https://img.shields.io/badge/LICENSE-MIT-00C853?style=for-the-badge" alt="MIT License" />
-</p><p align="center">
-  <strong>◈ A FUTURISTIC SYSTEM DIAGNOSTICS & CYBERSECURITY DASHBOARD ◈</strong>
+  <a href="https://aether-os-diagnosis.onrender.com">
+    <img src="https://img.shields.io/badge/🚀_LAUNCH-LIVE_DEMO-00E5FF?style=for-the-badge&logo=render&logoColor=white" alt="Launch Live Demo">
+  </a>
+  <a href="https://github.com/vaibhavsinghabc557-boop/Aether-OS-Cyber-Suite">
+    <img src="https://img.shields.io/badge/GITHUB-VIEW_SOURCE-181717?style=for-the-badge&logo=github" alt="View Source Code">
+  </a>
+  <a href="https://github.com/vaibhavsinghabc557-boop/Aether-OS-Cyber-Suite/stargazers">
+    <img src="https://img.shields.io/github/stars/vaibhavsinghabc557-boop/Aether-OS-Cyber-Suite?style=for-the-badge&color=yellow&logo=github" alt="GitHub Stars">
+  </a>
+  <img src="https://img.shields.io/badge/PYTHON-FLASK-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Flask">
+  <img src="https://img.shields.io/badge/LICENSE-MIT-8A2BE2?style=for-the-badge" alt="MIT License">
 </p>---
 
-🟣 "01 // SYSTEM OVERVIEW"
+🌐 LIVE DEMO — OPEN IN ONE CLICK
 
-AETHER-OS // TITAN v5.0 is a Python Flask-powered web dashboard combining system diagnostics, network utilities, website inspection, IP intelligence, file analysis, and security-themed tools in one futuristic interface.
+🚀 "LAUNCH AETHER-OS NOW →" (https://aether-os-diagnosis.onrender.com)
 
-Built around a neon cyber aesthetic and an integrated backend, AETHER-OS provides a centralized environment for technical exploration and diagnostic utilities.
+Visit the deployed dashboard directly in your browser.
 
-«⚡ SYSTEM STATUS: Dashboard initialized
-🔷 CORE: Python + Flask
-🟣 INTERFACE: Neon cyber dashboard
-🛡️ MODE: Diagnostics & technical utilities»
+🔗 Repository: "Aether-OS-Cyber-Suite" (https://github.com/vaibhavsinghabc557-boop/Aether-OS-Cyber-Suite)
 
 ---
 
-🔹 "02 // FEATURE MATRIX"
+🧬 PROJECT OVERVIEW
 
-🖥️ SYSTEM DIAGNOSTICS
+AETHER-OS // TITAN v5.0 is a web-based system diagnostics and cybersecurity-themed dashboard built with Python and Flask.
 
-- Device and system information display
-- Diagnostic data presentation
-- Centralized dashboard interface
+It combines diagnostic utilities, interactive tools, and a futuristic interface featuring neon-inspired colours and a dark glassmorphism aesthetic.
 
-🌐 WEB SCANNER
+✨ CORE FEATURES
 
-- Website target input
-- Backend-powered inspection requests
-- Organized scan results
+- 🖥️ Device Diagnostics — View available device and browser information.
+- 📁 File & APK Analysis — Explore file-analysis tools and indicators.
+- 🌐 Website Scanner — Inspect supported website information.
+- 📡 Network Suite — Access network diagnostic utilities.
+- 🛰️ IP Intelligence — View available IP-related information.
+- 🔐 Password & Cipher Tools — Explore password and encoding utilities.
+- 🛡️ Antivirus-Style Dashboard — Explore the malware-analysis interface.
 
-📡 NETWORK SUITE
+«⚠️ Some readings may be estimated, browser-reported, or simulated. Diagnostic results do not guarantee that a device, website, or file is safe.»
 
-- Ping-related utilities
-- Port-inspection interface
-- Network diagnostic functionality
+🎨 TECH STACK
 
-🌍 IP INTELLIGENCE
+Component| Technology
+⚙️ Backend| Python + Flask
+🧩 Frontend| HTML, CSS & JavaScript
+🎨 Styling| Tailwind CSS
+☁️ Hosting| Render
+📦 Dependencies| "requirements.txt"
 
-- IP-related information retrieval
-- Dedicated intelligence interface
-- Structured result presentation
+🚀 RUN LOCALLY
 
-📁 FILE & APK ANALYSIS
+1. Clone the repository
 
-- File hashing functionality
-- Entropy-related analysis
-- File inspection interface
+git clone https://github.com/vaibhavsinghabc557-boop/Aether-OS-Cyber-Suite.git
+cd Aether-OS-Cyber-Suite
 
-🔐 PASSWORD & CIPHER VAULT
+2. Install dependencies
 
-- Password-generation interface
-- Cipher-related utilities
-- Security-themed tools
+pip install -r requirements.txt
 
-🛡️ ANTIVIRUS INTERFACE
+3. Start the application
 
-- Antivirus-style scanning interface
-- Simulated threat information
-- Optimization-themed functionality
+If the Flask entry point is "app.py" and its application object is named "app":
 
-«⚠️ Important: Antivirus threat results are simulated. This project is not a complete antivirus engine and does not provide verified malware detection or actual quarantine.»
+python app.py
 
----
+Open the local address shown in your terminal.
 
-🔷 "03 // VISUAL DESIGN"
+🔌 API ENDPOINTS
 
-Element| Description
-🩵 Accent| Neon cyan
-🟣 Accent| Electric purple
-🌑 Theme| Dark cyber aesthetic
-💎 UI| Glassmorphism-inspired styling
-⚡ Interaction| JavaScript-powered interface
-🎨 Styling| CSS and Tailwind CSS
-🔤 Typography| Google Fonts
+- "GET /api/device" — Device information
+- "GET /api/webscan" — Website scanning
+- "GET /api/network_suite" — Network diagnostics
+- "GET /api/ip_intel" — IP intelligence
+- "GET /api/av_scan" — Antivirus-style analysis
 
----
+The required parameters and request formats depend on each endpoint.
 
-🟪 "04 // TECHNOLOGY STACK"
+🔒 SECURITY & RESPONSIBLE USE
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-</p>---
+- ✅ Test only systems you own or have permission to assess.
+- 🔐 Keep API keys and private credentials out of public repositories.
+- 🛡️ Validate and restrict user-supplied scan targets.
+- 🚦 Use appropriate rate limiting and access controls on public deployments.
+- ⚠️ Do not treat simulated antivirus results or entropy measurements as proof that a file is malicious or safe.
 
-⚙️ "05 // INSTALLATION"
+📜 LICENSE
 
-STEP 01 — Clone the repository
+Released under the MIT License. See ""LICENSE"" (https://github.com/vaibhavsinghabc557-boop/Aether-OS-Cyber-Suite/blob/main/LICENSE) for the full license text.
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+⭐ SUPPORT THE PROJECT
 
-STEP 02 — Enter the project directory
-
-cd YOUR_REPOSITORY
-
-Replace the placeholders with your actual GitHub username and repository name.
-
-STEP 03 — Install Flask
-
-python -m pip install flask
-
-If a "requirements.txt" file is available, install its dependencies with:
-
-python -m pip install -r requirements.txt
-
-STEP 04 — Launch AETHER-OS
-
-python Aether-OS-Diagnosis.py
-
-STEP 05 — Open the dashboard
-
-Visit the local URL shown in your terminal. Flask commonly uses:
-
-http://127.0.0.1:5000
-
----
-
-🔌 "06 // API ENDPOINTS"
-
-Endpoint| Function
-"/api/device"| Device and system information
-"/api/webscan"| Website inspection
-"/api/network_suite"| Network utilities
-"/api/ip_intel"| IP intelligence
-"/api/av_scan"| Antivirus-style scan interface
-
-The actual functionality depends on each endpoint's implementation and the information available to the application.
-
----
-
-🔒 "07 // SECURITY PROTOCOL"
-
-- Use scanning tools only on authorized targets.
-- Run locally during development.
-- Do not expose Flask's development server directly to the public internet.
-- Add authentication, input validation, and access controls before public deployment.
-- Keep API keys and other secrets out of source code.
-- Do not treat simulated results as verified security findings.
-
-Deployment warning: A Flask server bound to "0.0.0.0" may be accessible to other devices on the network. Configure access controls and deployment settings appropriately.
-
----
-
-🚀 "08 // DEVELOPMENT ROADMAP"
-
-- [ ] Automated testing
-- [ ] Improved error handling
-- [ ] Stronger API security
-- [ ] Dependency documentation
-- [ ] Expanded diagnostic capabilities
-- [ ] Enhanced file-analysis tools
-- [ ] Integration with genuine malware-analysis tools
-- [ ] Production-ready deployment configuration
-
----
-
-🟢 "09 // LICENSE"
-
-AETHER-OS // TITAN v5.0 is licensed under the MIT License.
-
-Permission is granted to use, copy, modify, distribute, sublicense, and sell copies of the software, subject to the conditions of the MIT License.
-
-See ""LICENSE"" (LICENSE) for the complete license terms.
+- ⭐ "Star the repository" (https://github.com/vaibhavsinghabc557-boop/Aether-OS-Cyber-Suite/stargazers)
+- 🐛 "Report an issue" (https://github.com/vaibhavsinghabc557-boop/Aether-OS-Cyber-Suite/issues)
+- 💻 "Explore the source code" (https://github.com/vaibhavsinghabc557-boop/Aether-OS-Cyber-Suite)
+- 🌐 "Open the live website" (https://aether-os-diagnosis.onrender.com)
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/◈_AETHER--OS-CORE_ONLINE-00E5FF?style=for-the-badge&labelColor=090014" alt="AETHER-OS Core Online" />
-</p><p align="center">
-  <strong>⚡ SYSTEM DIAGNOSTICS · NETWORK INTELLIGENCE · CYBER TOOLS ⚡</strong>
-</p><p align="center">
-  <sub>◈ END OF TRANSMISSION ◈</sub>
+  <b>⚡ AETHER-OS // TITAN v5.0 ⚡</b><br>
+  <i>DIAGNOSE • ANALYZE • EXPLORE</i><br><br>
+  <a href="https://aether-os-diagnosis.onrender.com">
+    <img src="https://img.shields.io/badge/ENTER_THE_SYSTEM-LAUNCH_NOW-7B2CFF?style=for-the-badge" alt="Launch AETHER-OS">
+  </a>
 </p>
